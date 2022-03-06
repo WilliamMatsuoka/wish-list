@@ -4,7 +4,7 @@
         <element attributes="edge_encryption_enabled=true" label="Item" max_length="125" name="u_item" type="string"/>
         <element display="true" label="Quantity" max_length="40" name="u_quantity" type="integer"/>
         <element attributes="encode_utf8=false" label="Requester" max_length="32" name="u_requester" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="Display name" max_length="300" name="u_string_1" read_only="true" type="string"/>
+        <element label="teste" max_length="100" name="u_teste" type="string"/>
         <element display="true" label="URL" max_length="1024" name="u_url" type="url"/>
         <index name="index">
             <element name="u_requester"/>
